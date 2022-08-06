@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+
+
+.header {
+position: relative;    
+height: 95vh;
+background-image: linear-gradient(to right bottom ,#7ed56f8f,#28b48587 ), url(../img/wkhdftc68ds51.png);
+background-size: cover;
+background-position: top;
+clip-path: polygon(0 0, 100% 0,100% 70%, 0 100% );
+}
+
+.logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo {
+    height: 65px;
+}
+
+
+.box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.heading-primary{
+    text-transform: uppercase;
+    color: #fff;
+}
+.heading-primary-main{
+  display: block;  
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+
+.heading-primary-sub {
+    display: block;  
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
